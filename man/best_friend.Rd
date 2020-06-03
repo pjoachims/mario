@@ -2,20 +2,20 @@
 % Please edit documentation in R/general.R
 \name{best_friend}
 \alias{best_friend}
-\title{Plot sales of Mario games. WABBALUBBADUBDUB}
+\title{Get the best friend of Mario by version.}
 \usage{
 best_friend(version)
 }
 \arguments{
-\item{type}{Type of plot ("bar" or "pie").}
+\item{version}{Integer (1 or 2)}
 }
 \value{
-ggplot of sales
+Name of best friend (string)
 }
 \description{
-Plot sales of Mario games. WABBALUBBADUBDUB
+Get the best friend of Mario by version.
 }
 \examples{
-mario_plot_sales("bar")
-mario_plot_sales("pie")
+best_friend(1)
+best_friend(2)
 }

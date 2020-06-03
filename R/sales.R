@@ -21,3 +21,6 @@ mario_plot_sales <- function(type = "bar") {
   }
   return (plot)
 }
+
+
+# theme(axis.text.x = element_text(angle = 90))

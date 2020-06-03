@@ -2,20 +2,13 @@
 % Please edit documentation in R/general.R
 \name{mario}
 \alias{mario}
-\title{Plot sales of Mario games.}
+\title{Print Mario's greetings.}
 \usage{
 mario()
 }
-\arguments{
-\item{type}{Type of plot ("bar" or "pie").}
-}
-\value{
-ggplot of sales
-}
 \description{
-Plot sales of Mario games.
+Print Mario's greetings.
 }
 \examples{
-mario_plot_sales("bar")
-mario_plot_sales("pie")
+mario()
 }

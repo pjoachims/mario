@@ -1,18 +1,18 @@
 Package: Mario
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Show the Basic Package Development Process with devtools
+Version: 0.9
 Authors@R: 
-    person(given = "First",
-           family = "Last",
-           role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+    person(given = "Per",
+           family = "Joachims",
+           email = "p.joachims@gmail.com",
+           role = c("aut", "cre"))
+Description: This package demonstrates the very basics of developing a package in R. It is used to get a basic understanding of what a package is and how devtools simplifies the development process.
+License: use_mit_license()
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
 Depends: 
     R (>= 2.10)
+Suggests: 
+    testthat

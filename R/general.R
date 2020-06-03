@@ -1,27 +1,24 @@
-#' Plot sales of Mario games.
+#' Print Mario's greetings.
 #'
-#' @param type Type of plot ("bar" or "pie").
-#' @return ggplot of sales
-#'
+#' @return Mario's greeting
 #' @export
 #'
 #' @examples
-#' mario_plot_sales("bar")
-#' mario_plot_sales("pie")
+#' mario()
 mario <- function() {
-  print("It's-a Me, Mario!")
+  return ("It's-a Me, Mario!")
 }
 
-#' Plot sales of Mario games. WABBALUBBADUBDUB
+#' Get the best friend of Mario by version.
 #'
-#' @param type Type of plot ("bar" or "pie").
-#' @return ggplot of sales
+#' @param version Integer (1 or 2)
+#' @return Name of best friend (string)
 #'
 #' @export
 #'
 #' @examples
-#' mario_plot_sales("bar")
-#' mario_plot_sales("pie")
+#' best_friend(1)
+#' best_friend(2)
 best_friend <- function(version) {
   bf_data <- bestfriend
   name <- bf_data[bf_data$Version == version, "Name"]
