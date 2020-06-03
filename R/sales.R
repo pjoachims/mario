@@ -9,6 +9,7 @@
 #' mario_plot_sales("bar")
 #' mario_plot_sales("pie")
 mario_plot_sales <- function(type = "bar") {
+  sales <- Mario::sales
   if (type == "bar") {
     base <- ggplot2::ggplot(data=sales, ggplot2::aes(x=Game, y=Sales))
     plot <- base + ggplot2::geom_bar(stat="identity")
