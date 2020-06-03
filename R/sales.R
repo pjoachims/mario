@@ -1,3 +1,10 @@
+#' Plot sales of Mario games.
+#'
+#' @param type Type of plot ("bar" or "pie").
+#' @return ggplot of sales
+#' @examples
+#' mario_plot_sales("bar")
+#' mario_plot_sales("pie")
 mario_plot_sales <- function(type = "bar") {
   if (type == "bar") {
     base <- ggplot2::ggplot(data=sales, ggplot2::aes(x=Game, y=Sales))
