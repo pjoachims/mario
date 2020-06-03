@@ -6,6 +6,9 @@
 \usage{
 mario()
 }
+\value{
+Mario's greeting
+}
 \description{
 Print Mario's greetings.
 }

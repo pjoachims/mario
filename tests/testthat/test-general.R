@@ -9,3 +9,4 @@ test_that("Mario's best friend is correct", {
   expect_equal(best_friend(version = 1), "Luigi")
   expect_equal(best_friend(version = 2), "Bowser")
 })
+
