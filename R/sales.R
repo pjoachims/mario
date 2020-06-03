@@ -2,6 +2,9 @@
 #'
 #' @param type Type of plot ("bar" or "pie").
 #' @return ggplot of sales
+#'
+#' @export
+#'
 #' @examples
 #' mario_plot_sales("bar")
 #' mario_plot_sales("pie")
