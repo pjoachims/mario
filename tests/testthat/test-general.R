@@ -1,4 +1,4 @@
-context("String length")
+context("Mario general")
 library(Mario)
 
 test_that("Mario greets right", {
